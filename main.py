@@ -12,7 +12,6 @@ ImageURLValidator.set_image_extension_whitelist([
 ])
 
 sub = SubReddit('r/LandscapePhotography')
-sub = SubReddit('r/SonyAlpha')
 amount = sub.discover_images(SortBy.hot)
 print(amount)
 
