@@ -1,5 +1,5 @@
-import os
 from src import SubReddit, ImageURLValidator, SortBy
+
 
 ImageURLValidator.set_image_host_whitelist([
 	'i.redd.it',
