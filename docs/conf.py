@@ -22,7 +22,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'renku-sphinx-theme',
+    'renku_sphinx_theme',
 ]
 
 templates_path = ['_templates']
