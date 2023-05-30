@@ -1,20 +1,17 @@
-.. reddit-photo-aggregator documentation master file, created by
-   sphinx-quickstart on Tue May 30 07:57:59 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to reddit-photo-aggregator's documentation!
 ===================================================
 
+reddit-photo-aggregator's is a library to scrape subreddits for images.
+
+Check out the :doc:`source/usage` section for further information, including
+
+.. note::
+
+	This project is under active development.
+
+Contents
+--------
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+	source/installation
+	source/usage
