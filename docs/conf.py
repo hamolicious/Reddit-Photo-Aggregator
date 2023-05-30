@@ -19,19 +19,18 @@ author = 'hamolicious'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-	'sphinx.ext.duration',
-	'sphinx.ext.autodoc',
-	'sphinx.ext.napoleon',
-    'renku-sphinx-theme'
+    'sphinx.ext.duration',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'renku-sphinx-theme',
 ]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'renku'
+html_theme = 'renku-sphinx-theme'
 html_static_path = ['_static']
