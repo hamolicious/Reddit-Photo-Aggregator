@@ -21,7 +21,8 @@ author = 'hamolicious'
 extensions = [
 	'sphinx.ext.duration',
 	'sphinx.ext.autodoc',
-  'sphinx.ext.napoleon',
+	'sphinx.ext.napoleon',
+    'sphinx_rtd_theme'
 ]
 
 templates_path = ['_templates']
