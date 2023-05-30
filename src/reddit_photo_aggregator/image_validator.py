@@ -2,15 +2,28 @@ from urllib.parse import urlparse
 
 
 class ImageURLValidator:
+	"""Image URL validation class to validate image URLs before attempting to download them
+	"""
+
 	__image_host_whitelist = ''
 	__image_extension_whitelist = ''
 
 	@classmethod
 	def set_image_host_whitelist(cls, host: list[str]) -> None:
+		"""Set the domain hosts that are allowed to be downloaded from
+
+		Args:
+			host (list[str]): list of host domains
+		"""
 		cls.__image_host_whitelist = ';'.join(host)
 
 	@classmethod
-	def set_image_extension_whitelist(cls, extension: str|list[str]) -> None:
+	def set_image_extension_whitelist(cls, extension: list[str]) -> None:
+		"""Set the image extensions that are allowed to be downloaded
+
+		Args:
+			host (list[str]): list of image extensions
+		"""
 		cls.__image_extension_whitelist = ';'.join(extension)
 
 	@classmethod

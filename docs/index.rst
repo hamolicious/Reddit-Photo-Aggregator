@@ -15,3 +15,4 @@ Contents
 .. toctree::
 	source/installation
 	source/usage
+	source/reference

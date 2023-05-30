@@ -13,13 +13,28 @@ class SubReddit:
 
 	@property
 	def loaded_images(self) -> list[Image]:
+		"""List of `Image` loaded when running `.discover_images`
+
+		Returns:
+			list[Image]: List of discovered image
+		"""
 		return self.__images
 
 	@property
 	def url(self) -> str:
+		"""The URL of the subreddit based on `name`
+		"""
 		return f'https://old.reddit.com/r/{self.__name}'
 
 	def discover_images(self, sorted_by=SortBy.hot) -> int:
+		"""Aggregates images from the subreddit feed
+
+		Args:
+			sorted_by (str, optional): `SortBy` value to sort the results by. Defaults to `SortBy.hot`.
+
+		Returns:
+			int: the amount of images found
+		"""
 		headers = {
 			'User-Agent': get_user_agent()
 		}
