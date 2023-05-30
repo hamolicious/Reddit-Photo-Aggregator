@@ -1,6 +1,6 @@
 [project]
 name = "reddit_photo_aggregator"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="hamolicious", email="hamolicious@outlook.com" },
 ]
